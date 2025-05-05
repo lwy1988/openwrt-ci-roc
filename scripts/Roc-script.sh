@@ -31,4 +31,4 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 ./scripts/feeds install -a
 #-------------------------20250505测试--------------------------------------------------------------------------------------------------------
 #软件源由APK切换到IPK
-#echo "CONFIG_USE_APK=n" >> ./.config
+echo "CONFIG_USE_APK=n" >> ./.config
